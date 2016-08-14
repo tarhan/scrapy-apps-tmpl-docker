@@ -1,0 +1,14 @@
+name: "Scrapy base"
+
+dependencies:
+  alpine:
+    runtime:
+      - openssl
+      - libffi
+      - libxml2
+      - libxslt
+    buildtime:
+      - openssl-dev
+      - libffi-dev
+      - libxml2-dev
+      - libxslt-dev
