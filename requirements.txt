@@ -1,1 +1,1 @@
-Scrapy
+Scrapy==1.1.1
