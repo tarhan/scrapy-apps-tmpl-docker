@@ -1,4 +1,4 @@
-FROM tarhan/python-base:3.5.2-alpine-onbuild
+FROM tarhan/python-base:2.7.12-alpine-onbuild
 
 ONBUILD COPY ./app.yaml /app/
 ONBUILD COPY ./requirements.txt /app/requirements.txt
